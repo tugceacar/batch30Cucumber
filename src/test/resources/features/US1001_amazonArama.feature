@@ -24,7 +24,13 @@ Feature: US1001 Amazon arama
     Then sonucun Ipad icerdigini test eder
     And ana sayfayi kapatir
 
+  @amazon @tugce
+  Scenario: TC03 Amazon Tugce bu isi yapar!! arama
 
+    When kullanici amazon sayfasina gider
+    And Tugce bu isi yapar!!
+    Then Tugce bu isi yapar!! icerdigini test eder
+    And ana sayfayi kapatir
 
 
 

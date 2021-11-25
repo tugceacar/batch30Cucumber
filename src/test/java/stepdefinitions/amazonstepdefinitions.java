@@ -51,5 +51,19 @@ public class amazonstepdefinitions {
     @Then("sonucun Ipad icerdigini test eder")
     public void sonucunIpadIcerdiginiTestEder() {
         Assert.assertTrue(amazonPage.sonucYazisiElementi.getText().contains("Ipad"));    }
+
+
+    @And("Tugce bu isi yapar!!")
+    public void tugceBuIsiYapar() {
+        amazonPage.aramaKutusu.sendKeys("Tugce bu isi yapar!!"+ Keys.ENTER);
     }
+
+    @Then("Tugce bu isi yapar!! icerdigini test eder")
+    public void tugceBuIsiYaparIcerdiginiTestEder() {
+        Assert.assertTrue(amazonPage.sonucYazisiElementi.getText().contains("Tugce bu isi yapar!!"));
+    }
+}
+
+
+
 

@@ -25,7 +25,7 @@ Feature: US1001 Amazon arama
     And ana sayfayi kapatir
 
   @amazon @tugce
-  Scenario: TC03 Amazon Tugce bu isi yapar!! arama
+  Scenario: TC00 Amazon Tugce bu isi yapar!! arama
 
     When kullanici amazon sayfasina gider
     And Tugce bu isi yapar!!
